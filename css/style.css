@@ -1,0 +1,827 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a{
+margin: 0;
+padding: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+color: inherit;
+text-decoration: none;
+}
+hr{
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(61, 57, 53); */
+    background-color: #332e27!important;
+    color: rgb(240, 232, 216);
+}
+.MainHeader{
+background-image: url("/img/mainPhoto.JPG");
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+}
+
+.MainHeader__container,.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.MainHeader__logo{
+    width: 30%;
+    padding: 24px 20px;
+    text-align: center;
+}
+.header__logo{
+    width: 15%;
+    padding: 24px 0px 0px 40px;
+    text-align: center;
+}
+.MainHeader__logo-text{
+    padding-top: 34px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.MainHeader__logo-img{
+    padding-bottom: 10px;
+}
+.menu{
+    padding: 50px 50px 15px 0px;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+.menu__list-link{
+display: inline-block
+}
+.menu__list-link:hover{
+    color: rgb(125, 122, 110)!important;
+    /* color: rgb(61, 57, 53); */
+}
+.menu__list-link + .menu__list-link{
+    padding-left: 20px;
+
+}
+.header__hr{
+    border: 0.5px solid rgb(240, 232, 216);
+    width: 1000px;
+    float: right;
+}
+.aboutUs__section{
+    margin-top: 83px;
+}
+.container{
+    width: 1330px;
+    margin: 0 auto;
+}
+.aboutUs-content{
+    display: flex;
+    column-gap: 37px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.aboutUs-img img{
+    width: 602px;
+}
+.aboutUs-title{
+    font-size: 47px;
+}
+.aboutUs-text{
+    font-size: 20px;
+
+}
+.aboutUs-text-item {
+padding-top: 42px;
+line-height: 25px;
+}
+.aboutUs__podcast-img{
+width: 30px;
+}
+.aboutUs__podcast-text{
+    font-size: 30px;
+}
+.aboutUs__podcast{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+footer{
+    background-color: rgb(27, 26, 22);
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.contacts__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.contacts__body-phone{
+    font-size: 21px;
+}
+.contacts__body-email{
+    font-size: 21px;
+}
+ .contacts__body-img{
+     width: 350px;
+ }
+ .standard__title,.ourDogs__title,.litters__title,.memoOwner__title{
+     font-weight: normal;
+     font-size: 47px;
+     text-align: center;
+     margin-top: 40px;
+ }
+ .standard__title-hr,.memoOwner__title-hr{
+    border: 0.5px solid rgb(240, 232, 216);
+    margin-top: 20px;
+ }
+ .standard__discription{
+     margin: 60px 0px;
+ }
+ .section__container{
+     padding: 0px 50px;
+ }
+ .standard__discription-title,.ourDogs__section-list-girls-title,.ourDogs__section-list-boys-title{
+     font-size: 34px;
+     font-weight: normal;
+ }
+.standard__discription-textBox{
+    font-size: 24px;
+}
+.standard__discription-textBox span{
+    text-transform: uppercase;
+}
+.standard__discription-textBox{
+    margin-top: 90px;
+    line-height: 30px;
+}
+.standard__discription-textBox-item + .standard__discription-textBox-item{
+    padding-top: 10px;
+
+}
+.pawHR{
+    border: 0.5px solid rgb(240, 232, 216);
+    width: 100%;
+}
+
+.pawHR__box img{
+width: 30px;
+position: relative;
+top: -20px;
+left: 50%;
+}
+.standard__head-title,.standard__muzzle-title,.standard__body-title,.standard__limbs-title,.standard__woolCover-title,.standard__size-title,.standard__note-title{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px 0px;
+    
+}
+.standard__head-textBox,.standard__muzzle-textBox,.standard__body-textBox,.standard__limbs-textBox1,.standard__limbs-textBox2,.standard__limbs-textBox3,.standard__limbs-textBox4,.standard__woolCover-textBox,.standard__size-textBox,.standard__note-textBox-item{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+.standard__head-textBox span,.standard__muzzle-textBox span,.standard__body-textBox span,.standard__limbs-textBox1 span,.standard__limbs-textBox2 span,.standard__limbs-textBox3 span,.standard__limbs-textBox4 span{
+    text-transform: uppercase;
+}
+.standard__head-textBox-item + .standard__head-textBox-item{
+    padding-top: 10px;
+}
+.standard__head{
+    margin-bottom: 60px;
+}
+.standard__muzzle-textBox-item + .standard__muzzle-textBox-item{
+    padding-top: 10px;
+}
+.standard__muzzle-textBox,.standard__body-textBox{
+    margin-bottom: 60px;
+}
+.standard__body-textBox-item + .standard__body-textBox-item{
+    padding-top: 10px;
+}
+.standard__tail-textBox-item,.standard__limitations-textBox-item,.standard__disqualifyingVices-textBox-item{
+    font-size: 24px;
+    font-weight: normal;
+    padding-top:10px;
+    line-height: 30px;
+}
+.standard__tail-textBox-item span{
+text-transform: uppercase;
+}
+.standard__tail-textBox{
+    margin-bottom: 60px;
+}
+.standard__limbs-textBox2,.standard__limbs-textBox3,.standard__limbs-textBox4{
+    margin-top: 50px;
+}
+.standard__limbs-textBox-item + .standard__limbs-textBox-item{
+padding-top: 10px;
+}
+.standard__limbs-textBox4,.standard__woolCover-textBox,.standard__size-textBox{
+    margin-bottom: 60px;
+}
+.standard__limbs-textBox-item{
+    line-height: 40px;
+}
+.standard__woolCover-textBox-item + .standard__woolCover-textBox-item{
+    padding-top: 10px;
+}
+.standard__size-textBox-item + .standard__size-textBox-item{
+    padding-top: 10px;
+}
+
+.standard__limitations-textBox,.standard__disqualifyingVices-textBox{
+    margin-bottom: 60px;
+}
+.girls-discription-item-img svg,.boys-discription-item-img svg{
+    width: 70px;
+}
+.ourDogs__section-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+.girls-discription-item-name,.boys-discription-item-name{
+    font-size: 30px;
+    
+}
+.girls-discription-item-birthDay,.boys-discription-item-birthDay{
+    font-size: 20px;
+}
+.ourDogs__section-list-girls-discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ourDogs__section-list-girls-discription-item,.ourDogs__section-list-boys-discription-item{
+    margin-top: 40px;
+}
+.girls-discription-item-name,.boys-discription-item-name{
+    margin: 10px 0px;
+}
+.news__title,.dogs__title,.litter__title,.contacts__title{
+    text-align: left;
+    font-size: 34px;
+     font-weight: normal;
+     padding: 30px 50px;
+}
+
+.news__section-box-item-full-icon svg {
+    width: 30px;
+}
+.news__section-box-item-full{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.news__section-box-item-img-box{
+    width: 400px;
+}
+.news__section-box-item-img-box:last-child{
+    width: 200px;
+}
+.news__section-box-item-img{
+    width: 100%;
+}
+.news__section-box-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    width: 400px;
+}
+.news__section-box1,.news__section-box2{
+    display:flex;
+  flex-direction: row;
+    
+}
+.news__section-box1{
+    flex-wrap: wrap;
+    row-gap: 100px;
+    justify-content: space-between;
+}
+.news__section-box-item-date,.news__section-box-item-text,.news__section-box-item-full-text{
+    font-size: 20px;
+    line-height: 25px;
+}
+.vert{
+    width: 200px;
+}
+
+.news__section-box2{
+    margin-top: 100px;
+}
+.news1__section-box-text-list,.news2__section-box-text-list,.news3__section-box-text-list,.news4__section-box-text-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.news1__section-box-img img,.news3__section-box-img img,.news4__section-box-img img{
+    width: 700px;
+}
+.news2__section-box-img img{
+    width: 500px;
+}
+.news1__section-box,.news2__section-box,.news3__section-box,.news4__section-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.dog1{
+    background-image: url("/img/Gloria.jpg");
+    background-repeat: no-repeat;
+    background-size: 677px;
+    background-position: top right;
+}
+.dog1__section-title,.dog2__section-title,.dog3__section-title,.dog4__section-title,.dog5__section-title,.dog6__section-title{
+    font-weight: normal;
+    font-size: 28px;
+    padding-left: 34px;
+}
+.dog1__section-box,.dog2__section-box,.dog3__section-box,.dog4__section-box,.dog5__section-box,.dog6__section-box{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.dog1__section-box span,.dog2__section-box span,.dog3__section-box span,.dog4__section-box span,.dog5__section-box span,.dog6__section-box span {
+    font-size: 30px;
+}
+
+.dog1__section-box-text-title,.dog2__section-box-text-title,.dog3__section-box-text-title,.dog4__section-box-text-title,.dog5__section-box-text-title,.dog6__section-box-text-title{
+    font-size: 34px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    
+}
+.dog1__pedigree,.dog2__pedigree,.dog3__pedigree,.dog4__pedigree,.dog5__pedigree,.dog6__pedigree{
+    padding-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.dog1__pedigree-icon svg{
+    width: 35px;
+}
+.dog1__pedigree-text{
+    font-size: 20px;
+}
+.dog1__section-box-text-parrents,.dog2__section-box-text-parrents,.dog3__section-box-text-parrents,.dog4__section-box-text-parrents,.dog5__section-box-text-parrents,.dog6__section-box-text-parrents{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 40px;
+}
+.dog1__section-box-text-pomet,.dog2__section-box-text-pomet,.dog3__section-box-text-pomet,.dog4__section-box-text-pomet,.dog5__section-box-text-pomet,.dog6__section-box-text-pomet{
+    padding-top: 30px;
+}
+.dog2{
+    background-image: url("/img/asta.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: top right;
+}
+.dog3{
+    background-image: url("/img/scarlett.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: top right;
+}
+.dog4{
+    background-image: url("/img/Lada.jpg");
+    background-repeat: no-repeat;
+    background-size:700px;
+    background-position: top right;
+}
+.dog5{
+    background-image: url("/img/Gardarika.jpg");
+    background-repeat: no-repeat;
+    background-size:650px;
+    background-position: top right;
+}
+.dog6{
+    background-image: url("/img/Erik.jpg");
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: top right; 
+}
+
+.pappies{
+    background-image: url("/img/pappies.jpg");
+height: 70vh;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: top;
+}
+.litter__img svg,.papForSale__img svg,.ownerMemo__img svg{
+    width: 50px;
+}
+.pappies__box{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+.pappies__box-litter,.pappies__box-papForSale,.pappies__box-ownerMemo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.litter-img svg{
+    width: 80px;
+}
+.box__litter{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.litters__section-box{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 90px;
+    column-gap: 70px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.litter-name span{
+    font-weight: bold;
+}
+.litter__section-box{
+    display: flex;
+    column-gap: 60px;
+}
+.litter__section-img{
+    width: 700px;
+}
+.litter__section-textBox{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.litter__section-textBox-paragraph-item span,.litter__section-textBox-paragraph-itemName{
+    font-size: 30px;
+}
+.litter__section-textBox-paragraph{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.litter__section-link-item{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.litter__section-link-item svg{
+    width: 35px;
+}
+.litter__section-link-item span{
+    font-size: 20px;
+}
+.litter__section-links{
+    display: flex;
+    column-gap: 70px;
+    margin-left: 80px;
+}
+
+.photoLitter-subTitle,.photoLitter-title{
+    text-align: left;
+    font-size: 47px;
+     padding: 0px 50px;
+}
+.photoLitter-title{
+    padding-top: 30px;
+}
+.photoLitter-subTitle{
+    padding-top: 15px;
+}
+.photoLitter-text{
+    font-size: 21px;
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.photoLitter-text span{
+font-size: 30px;
+}
+.photoLitter-box{
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+    
+}
+.photoLitter-box__text{
+    width: 40%;
+}
+.photoLitter-gallery img{
+    width: 250px;
+    height: 170px;
+    cursor: pointer;
+
+}
+.photoLitter-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 60%;
+    margin-top: 30px;
+}
+.photoLitter-gallery-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.photoLitter-gallery-item-text{
+    font-size: 30px;
+}
+.photoLitter-paw-icon svg{
+    width: 30px;
+}
+.photoLitter-paw{
+    margin-left: 50px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.galleryA__box-item__img img{
+    width: 300px;
+    
+}
+.galleryA__box{
+    margin: 30px 40px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.galleryA__box2{
+    display: flex;
+    margin: 0px 60px;
+    column-gap: 40px;
+
+}
+.galleryA-title,.gallery-title,.dogs__gallery-title{
+    text-align: left;
+    font-size: 47px;
+     padding: 20px 55px;
+     font-weight: normal;
+}
+.bereginya-img img{
+   width: unset!important; 
+}
+
+.photoLitterB-gallery img{
+    width: 300px;
+    height: 200px;
+}
+.photoG-19 img{
+    width: 280px;
+    height: 339px;
+}
+.gallery__innerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.litterD-box__text{
+    width: 30%;
+}
+.photoLitterD-gallery{
+    width: 70%;
+    column-gap: 40px;
+    margin-left: 100px;
+}
+.photoLitterE-gallery-item__img img{
+    height: unset!important;
+}
+.photoLitterZ-gallery img{
+    height: unset!important;
+}
+.iluna img{
+    height: unset!important;
+}
+.photoK-7-width img{
+    width: 390px!important;
+}
+
+.memoOwner__main-content{
+    margin-top: 20px;
+}
+.memoOwner__content{
+    margin: 40px 0px;
+}
+.memoOwner__content p{
+    font-size: 24px;
+    line-height: 30px;
+}
+.uk-accordion-title{
+    color: rgb(240, 232, 216);
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 0px 50px 40px 50px;
+}
+.uk-accordion-content{
+    font-size: 21px;
+    line-height: 30px;
+    padding: 0px 50px 40px 50px;
+}
+.news__photo-fixPadding{
+    padding-bottom: 33px;
+}
+.news__photo-fixPadding2{
+    padding-bottom: 19px;
+}
+.news1__section-box-text-list-ThankItem,.news2__section-box-text-list-ThankItem{
+    padding-top: 30px;
+    line-height: 30px;
+}
+.news6__section-box{
+    column-gap: 70px;
+}
+.news1__section-box-text-list-firstExhibition,.news1__section-box-text-list-secondExhibition,.news1__section-box-text-list-thirdExhibition{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.gallery{
+    background-image: url("/img/main-gallery.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.exhibition__img svg,.sport__img svg,.walks__img svg,.meetings__img svg{
+    width: 80px;
+}
+.mainGallery__box{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    font-size: 47px;
+    text-transform: uppercase;
+
+}
+.mainGallery__box-exhibition,.mainGallery__box-sport,.mainGallery__box-walks,.mainGallery__box-meetings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-bottom: 100px;
+
+}
+.gallery__box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: space-between;
+    margin: 0px 60px;
+    row-gap: 40px;
+
+}
+.gallery__box-item__img img{
+    width: 400px;
+}
+.gallery__box2{
+    display: flex;
+    margin: 40px 60px 0px 60px;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.Main-contacts__body{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+    margin: 70px 0px;
+
+
+}
+.contacts__body-img img{
+    width: 700px;
+}
+.contacts__body-text{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    line-height: 35px;
+}
+.contacts__body-text-phone svg,.contacts__body-text-email svg{
+    width: 30px;
+}
+.contacts__body-text-phone,.contacts__body-text-email{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+.phone__link:hover,.email__link:hover{
+    color: #504d45;
+}
+.menu__list a.active{
+    color: rgb(125, 122, 110)!important;
+}
+.dog1__gallery-item__img img{
+    width: 200px;
+}
+.dog1__gallery{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.dog1__pedigree-link,.dog1__pedigree-gallery{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.dogs__gallery-item__img img{
+    width: 300px;
+}
+.dogs__gallery{
+    margin: 30px 40px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.dogs__gallery2{
+    margin: 0px 60px;
+}
+.dogs__gallery3{
+    display: flex;
+    margin: 30px 60px;
+    column-gap: 40px;
+}
+.dogs__gallery-item__img3 img{
+    width: 400px;
+}
+.pappiesForSale{
+    display: flex;
+    flex-direction: column;
+}
+.pappiesForSale__main{
+    flex-grow: 1;
+    min-height: calc(100vh - 126px);
+}
+.pappiesForSale-text{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 32px;
+}
