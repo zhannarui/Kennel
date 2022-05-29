@@ -44,7 +44,7 @@ body{
     color: rgb(240, 232, 216);
 }
 .MainHeader{
-background-image: url("img/mainPhoto.JPG");
+background-image: url("../img/mainPhoto.JPG");
 height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
