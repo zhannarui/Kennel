@@ -346,6 +346,7 @@ padding-top: 10px;
 
 .news__section-box2{
     margin-top: 100px;
+    column-gap: 70px;
 }
 .news1__section-box-text-list,.news2__section-box-text-list,.news3__section-box-text-list,.news4__section-box-text-list{
     display: flex;
