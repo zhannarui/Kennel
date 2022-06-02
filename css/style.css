@@ -366,7 +366,7 @@ padding-top: 10px;
     column-gap: 30px;
 }
 .dog1{
-    background-image: url("/img/Gloria.jpg");
+    background-image: url("../img/Gloria.jpg");
     background-repeat: no-repeat;
     background-size: 677px;
     background-position: top right;
@@ -417,38 +417,38 @@ padding-top: 10px;
     padding-top: 30px;
 }
 .dog2{
-    background-image: url("/img/asta.jpg");
+    background-image: url("../img/asta.jpg");
     background-repeat: no-repeat;
     background-size:600px;
     background-position: top right;
 }
 .dog3{
-    background-image: url("/img/scarlett.jpg");
+    background-image: url("../img/scarlett.jpg");
     background-repeat: no-repeat;
     background-size:600px;
     background-position: top right;
 }
 .dog4{
-    background-image: url("/img/Lada.jpg");
+    background-image: url("../img/Lada.jpg");
     background-repeat: no-repeat;
     background-size:700px;
     background-position: top right;
 }
 .dog5{
-    background-image: url("/img/Gardarika.jpg");
+    background-image: url("../img/Gardarika.jpg");
     background-repeat: no-repeat;
     background-size:650px;
     background-position: top right;
 }
 .dog6{
-    background-image: url("/img/Erik.jpg");
+    background-image: url("../img/Erik.jpg");
     background-repeat: no-repeat;
     background-size:600px;
     background-position: top right; 
 }
 
 .pappies{
-    background-image: url("/img/pappies.jpg");
+    background-image: url("../img/pappies.jpg");
 height: 70vh;
 background-repeat: no-repeat;
 background-size: 100%;
@@ -697,7 +697,7 @@ font-size: 30px;
     row-gap: 15px;
 }
 .gallery{
-    background-image: url("/img/main-gallery.jpg");
+    background-image: url("../img/main-gallery.jpg");
     height: 50vh;
     background-repeat: no-repeat;
     background-size: 100%;
