@@ -134,6 +134,7 @@ width: 30px;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
+    align-items: center;
 }
 
 footer{
@@ -828,4 +829,48 @@ font-size: 30px;
 }
 .fix-lineHeight{
     line-height: 35px;
+}
+
+@media (min-width: 1920px) {
+    .menu{
+        font-size: 30px;
+    }
+    .header__hr{
+        width: 1300px;
+    }
+    .MainHeader__logo-text{
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+    .aboutUs-title{
+        font-size: 60px;
+    }
+    .aboutUs-img img{
+        width: 800px;
+    }
+    .aboutUs-text-item{
+        line-height: 30px;
+        
+    }
+    .aboutUs-text{
+        font-size: 30px;
+    }
+    .container{
+        width: 1800px;
+    }
+    .aboutUs__podcast{
+        column-gap: 30px;
+    }
+    .aboutUs__podcast-img{
+        width: 50px;
+    }
+    .aboutUs__podcast-text{
+        font-size: 35px;
+    }
+    .contacts__body-img{
+        width: 450px;
+    }
+    .contacts__body-phone,.contacts__body-email{
+        font-size: 30px;
+    }
 }
