@@ -833,13 +833,14 @@ font-size: 30px;
 
 @media (min-width: 1920px) {
     .menu{
-        font-size: 30px;
+        font-size: 28px;
+        padding: 65px 50px 15px 0px;
     }
     .header__hr{
         width: 1300px;
     }
     .MainHeader__logo-text{
-        font-size: 28px;
+        font-size: 29px;
         letter-spacing: 4px;
     }
     .aboutUs-title{
@@ -849,14 +850,14 @@ font-size: 30px;
         width: 800px;
     }
     .aboutUs-text-item{
-        line-height: 40px;
+        line-height: 35px;
         
     }
     .aboutUs-text{
-        font-size: 30px;
+        font-size: 27px;
     }
     .container{
-        width: 1800px;
+        width: 1750px;
     }
     .aboutUs__podcast{
         column-gap: 30px;
@@ -872,5 +873,14 @@ font-size: 30px;
     }
     .contacts__body-phone,.contacts__body-email{
         font-size: 30px;
+    }
+    .menu__list-link + .menu__list-link{
+        padding-left: 25px;
+    }
+    .aboutUs__section{
+        margin-top: 100px;
+    }
+    .aboutUs-content{
+        column-gap: 47px;
     }
 }
