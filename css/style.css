@@ -883,4 +883,7 @@ font-size: 30px;
     .aboutUs-content{
         column-gap: 47px;
     }
+    .standard__title, .ourDogs__title, .litters__title, .memoOwner__title{
+        font-size: 62px;
+    }
 }
