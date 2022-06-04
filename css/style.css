@@ -85,7 +85,7 @@ nav ul{
 display: inline-block
 }
 .menu__list-link:hover{
-    color: rgb(125, 122, 110)!important;
+    color: rgb(125, 122, 110);
     /* color: rgb(61, 57, 53); */
 }
 .menu__list-link + .menu__list-link{
