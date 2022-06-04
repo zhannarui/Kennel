@@ -830,7 +830,21 @@ font-size: 30px;
 .fix-lineHeight{
     line-height: 35px;
 }
-
+.news__photo-fixPadding3{
+    padding-bottom: 53px;
+}
+.news9-box-img{
+    display: flex;
+    column-gap: 20px;
+}
+.news9-box-img-inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+}
+.news9-box-img img{
+    width: 400px;
+}
 @media (min-width: 1920px) {
     .menu{
         font-size: 28px;
