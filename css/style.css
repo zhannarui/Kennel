@@ -487,7 +487,6 @@ background-position: top;
 .litters__section-box{
     margin-top: 50px;
     display: flex;
-    margin-left: 90px;
     column-gap: 70px;
     flex-wrap: wrap;
     row-gap: 50px;
@@ -497,7 +496,7 @@ background-position: top;
 }
 .litter__section-box{
     display: flex;
-    column-gap: 60px;
+    justify-content: space-between;
 }
 .litter__section-img{
     width: 700px;
@@ -507,7 +506,6 @@ background-position: top;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    margin-left: 80px;
     margin-top: 50px;
 }
 .litter__section-textBox-paragraph-item span,.litter__section-textBox-paragraph-itemName{
@@ -532,7 +530,6 @@ background-position: top;
 .litter__section-links{
     display: flex;
     column-gap: 70px;
-    margin-left: 80px;
 }
 
 .photoLitter-subTitle,.photoLitter-title{
@@ -895,7 +892,8 @@ font-size: 30px;
         font-size: 27px;
     }
     .container{
-        width: 1750px;
+        width: 90%;
+        margin: 0 auto;
     }
     .aboutUs__podcast{
         column-gap: 30px;
