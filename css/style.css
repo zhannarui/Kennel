@@ -845,6 +845,30 @@ font-size: 30px;
 .news9-box-img img{
     width: 400px;
 }
+.dog7{
+    background-image: url("../img/King.jpeg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: top right; 
+}
+.dog7__padding{
+   padding: 100px 0px;
+}
+.dog8{
+    background-image: url("../img/Lodbrok.jpeg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: top right;  
+}
+.dog9{
+    background-image: url("../img/Lumen.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: top right;  
+}
+.dog8__padding{
+    padding-bottom: 100px;
+}
 @media (min-width: 1920px) {
     .menu{
         font-size: 28px;
