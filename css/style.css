@@ -490,6 +490,7 @@ background-position: top;
     column-gap: 70px;
     flex-wrap: wrap;
     row-gap: 50px;
+    margin-left: 30px;
 }
 .litter-name span{
     font-weight: bold;
