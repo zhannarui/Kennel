@@ -101,7 +101,7 @@ display: inline-block
     margin-top: 83px;
 }
 .container{
-    width: 1330px;
+    width: 95%;
     margin: 0 auto;
 }
 .aboutUs-content{
@@ -299,7 +299,7 @@ padding-top: 10px;
     text-align: left;
     font-size: 34px;
      font-weight: normal;
-     padding: 30px 50px;
+     padding: 30px 36px;
 }
 
 .news__section-box-item-full-icon svg {
