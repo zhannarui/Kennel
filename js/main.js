@@ -10,3 +10,9 @@ $(function($){
 		}
 	});
 });
+
+$('.mobile__menu-btn').on('click', function(e) {
+    e.preventDefault();
+    $('.menu__body').toggleClass('menu-active');   
+    $('.mobile__menu-btn').toggleClass('menu-btn-active');
+})

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Главная страница питомника</title>
 </head>
@@ -20,6 +21,7 @@
                 <img src="img/header__logo.svg" alt="логотип" class="MainHeader__logo-img">
                 <span class="MainHeader__logo-text">Монопородный питомник собак породы Уиппет</span>
             </div>
+            <a href="#" class="mobile__menu-btn"></a>
             <div class="menu__body">
                 <nav class="menu">
                     <ul class="menu__list">
@@ -34,6 +36,18 @@
                 </nav>
                 <hr class="header__hr">
             </div>
+            
+                <!-- <nav class="mobile__menu">
+                    <ul class="menu__list-mobile">
+                        <li class="mobileMenu__list-link"><a href="index.html">О нас</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/standard.html">Стандарт</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/ourDogs.html">Наши собаки</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/pappies.html">Щенки</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/news.html">Новости</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/mainGallery.html">Фотогалерея</a></li>
+                        <li class="mobileMenu__list-link"><a href="html/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav> -->
         </div>
     </header>
     <main>
@@ -42,7 +56,31 @@
                 <h1 class="aboutUs-title">О нас</h1>
                 <div class="aboutUs-content">
                     <div class="aboutUs-text">
+                        <p class="aboutUs-text-item">25 лет назад в нашем доме появился первый уиппет... И с этого момента моя жизнь неразрывно с ними связана. Эти собаки моя любовь, моя жизнь.
+                            История
+                            нашего питомника началась с появления в нашей жизни великолепной собаки, Истории Любви
+                            Гардарики. Родоначальницы и главной производительницы нашего питомника. В честь этой собаки, питомник и получил свое название.
+                        </p>
+                        <p class="aboutUs-text-item">Сейчас в питомнике достаточно большое поголовье, но все они
+                            являются ее потомками. И каждый из
+                            них обрёл свою любящую семью, счастлив и живёт в гармонии со своими владельцами.</p>
+                        <p class="aboutUs-text-item">Уиппет- это маленькое счастье в доме! Маленький борзой
+                            англичанин, сочетающий в себе
+                            одновременно изящность, элегантность и невероятную мощь и скорость.</p>
+                        <p class="aboutUs-text-item">Уиппет - отличный компаньон и полноценный член семьи. Ласковый,
+                            преданный, любящий детей.
+                            Уиппет поддерживает своего хозяина во всех увлечениях, и будет выкладываться для своего
+                            человека на все 100%.
+                        </p>
+                        <p class="aboutUs-text-item">Я счастлива быть заводчиком этих прекрасных созданий и помогать
+                            людям обрести такого уникально друга.</p>
+                    </div>
+                    <div class="aboutUs-text-mobile">
                         <p class="aboutUs-text-item">25 лет назад в нашем доме появился первый уиппет...
+                        </p>
+                        <button href="#toggle-animation" class="uk-button uk-button-default mobile-btn-full" type="button" uk-toggle="target: #toggle-animation; animation: uk-animation-fade">Подробнее</button>
+                        <div id="toggle-animation" class="uk-card uk-card-default uk-card-body uk-margin-small mobile-full-text">
+                        <p class="aboutUs-text-item">
                             И с этого момента моя жизнь неразрывно с ними связана. Эти собаки моя любовь, моя жизнь.
                             История
                             нашего питомника началась с появления в нашей жизни великолепной собаки, Истории Любви
@@ -62,6 +100,7 @@
                         </p>
                         <p class="aboutUs-text-item">Я счастлива быть заводчиком этих прекрасных созданий и помогать
                             людям обрести такого уникально друга.</p>
+                        </div>
                     </div>
                     <div class="aboutUs-img">
                         <img src="img/AboutUs-img.jpg" alt="Фотография заводчицы с собаками">
@@ -88,7 +127,7 @@
                                 d="M471.75,373.05c-25.91-30.38-47.65-56.29-73.86-86.67-13.7-16.08-31.27-32.17-52.12-39.31a60.2,60.2,0,0,0-9.83-2.69c-7.45-1.19-15.49-1.19-23.23-1.19s-15.79,0-23.53,1.49a60.89,60.89,0,0,0-9.83,2.68c-20.85,7.15-38.12,23.23-52.12,39.32-25.91,30.38-47.65,56.29-73.86,86.67-39,39-87,82.2-78,142.66,8.63,30.38,30.37,60.46,69.39,69.09,21.74,4.47,91.14-13.1,165-13.1h5.36c73.86,0,143.26,17.27,165,13.1,39-8.63,60.76-39,69.39-69.09C558.72,455.25,510.77,412.06,471.75,373.05Z" />
                         </svg>
                     </a>
-                    <span class="aboutUs__podcast-text">Подкаст с моим участием в качестве гостя, и заводчика</span>
+                    <span class="aboutUs__podcast-text">Подкаст с моим участием в качестве гостя и заводчика</span>
                 </div>
             </div>
         </section>
@@ -105,6 +144,7 @@
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/uikit.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 
