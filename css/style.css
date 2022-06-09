@@ -1048,6 +1048,7 @@ footer{
 }
 .MobileHeader__logo-text{
     display: block;
+    font-size: 18px;
 }
 .aboutUs-text-more{
     display: none;
@@ -1064,5 +1065,12 @@ footer{
     font-size: 16px;
     color: rgb(240, 232, 216);
 }
-
+.MainHeader__container{
+    justify-content: right;
+    column-gap: 60px;
+}
+.MainHeader__logo-img{
+    width: 65%;
+    padding: 0;
+}
 }
