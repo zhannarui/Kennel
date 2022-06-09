@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Главная страница питомника</title>
 </head>
@@ -20,6 +19,7 @@
             <div class="MainHeader__logo">
                 <img src="img/header__logo.svg" alt="логотип" class="MainHeader__logo-img">
                 <span class="MainHeader__logo-text">Монопородный питомник собак породы Уиппет</span>
+                <span class="MobileHeader__logo-text">Питомник Уиппетов</span>
             </div>
             <a href="#" class="mobile__menu-btn"></a>
             <div class="menu__body">
@@ -76,10 +76,9 @@
                             людям обрести такого уникально друга.</p>
                     </div>
                     <div class="aboutUs-text-mobile">
-                        <p class="aboutUs-text-item">25 лет назад в нашем доме появился первый уиппет...
+                        <p class="aboutUs-text-item">25 лет назад в нашем доме появился первый уиппет <span class="aboutUs-text-dots">...</span>
                         </p>
-                        <button href="#toggle-animation" class="uk-button uk-button-default mobile-btn-full" type="button" uk-toggle="target: #toggle-animation; animation: uk-animation-fade">Подробнее</button>
-                        <div id="toggle-animation" class="uk-card uk-card-default uk-card-body uk-margin-small mobile-full-text">
+                        <div  class="aboutUs-text-more">
                         <p class="aboutUs-text-item">
                             И с этого момента моя жизнь неразрывно с ними связана. Эти собаки моя любовь, моя жизнь.
                             История
@@ -101,6 +100,7 @@
                         <p class="aboutUs-text-item">Я счастлива быть заводчиком этих прекрасных созданий и помогать
                             людям обрести такого уникально друга.</p>
                         </div>
+                        <button class="aboutUs-text-btnMore">Подробнее</button>
                     </div>
                     <div class="aboutUs-img">
                         <img src="img/AboutUs-img.jpg" alt="Фотография заводчицы с собаками">
@@ -144,7 +144,6 @@
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/uikit.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 

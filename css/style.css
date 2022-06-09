@@ -870,9 +870,10 @@ font-size: 30px;
 .aboutUs-text{
     display: block;
 }
-.aboutUs-text-mobile{
+.aboutUs-text-mobile,.MobileHeader__logo-text{
     display: none;
 }
+
 @media (min-width: 1920px) {
     .menu{
         font-size: 28px;
@@ -1040,8 +1041,28 @@ footer{
 }
 .aboutUs-text-mobile{
     font-size: 20px;
+ 
 }
 .mobile-btn-full{
     margin-top: 20px;
 }
+.MobileHeader__logo-text{
+    display: block;
+}
+.aboutUs-text-more{
+    display: none;
+}
+.aboutUs-text-dots-active{
+    display: none;
+}
+.aboutUs-text-btnMore{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid rgb(240, 232, 216);
+    /* border-radius: 5px; */
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(240, 232, 216);
+}
+
 }

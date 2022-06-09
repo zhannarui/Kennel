@@ -16,3 +16,16 @@ $('.mobile__menu-btn').on('click', function(e) {
     $('.menu__body').toggleClass('menu-active');   
     $('.mobile__menu-btn').toggleClass('menu-btn-active');
 })
+
+$('.aboutUs-text-btnMore').click(function(){
+	$('.aboutUs-text-more').slideToggle(300, function(){
+		if ($(this).is(':hidden')) {
+			$('.aboutUs-text-dots').removeClass('aboutUs-text-dots-active');
+			$('.aboutUs-text-btnMore').html('Подробнее');
+		} else {
+			$('.aboutUs-text-dots').toggleClass('aboutUs-text-dots-active');
+			$('.aboutUs-text-btnMore').html('Скрыть');
+		}							
+	});
+	return false;
+});
