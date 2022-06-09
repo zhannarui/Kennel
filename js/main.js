@@ -18,7 +18,7 @@ $('.mobile__menu-btn').on('click', function(e) {
 })
 
 $('.aboutUs-text-btnMore').click(function(){
-	$('.aboutUs-text-more').slideToggle(300, function(){
+	$('.aboutUs-text-more').slideToggle(500, function(){
 		if ($(this).is(':hidden')) {
 			$('.aboutUs-text-dots').removeClass('aboutUs-text-dots-active');
 			$('.aboutUs-text-btnMore').html('Подробнее');
