@@ -751,8 +751,9 @@ font-size: 30px;
 
 
 }
-.contacts__body-img img{
+.contacts__body-img-desktop img{
     width: 700px;
+    display: block;
 }
 .contacts__body-text{
     font-size: 30px;
@@ -872,9 +873,10 @@ font-size: 30px;
 .aboutUs-text{
     display: block;
 }
-.aboutUs-text-mobile,.MobileHeader__logo-text{
+.aboutUs-text-mobile,.MobileHeader__logo-text,.contacts__body-img-mobile{
     display: none;
 }
+
 
 @media (min-width: 1920px) {
     .menu{
@@ -1185,5 +1187,27 @@ max-width: 480px;
 }
 .news9-box-img-inner{
     row-gap: 20px;
+}
+.contacts__body-img-desktop{
+    display: none;
+}
+.contacts__body-img-mobile{
+    display: block;
+    max-width: 480px;
+}
+.contacts__body-img-mobile img{
+    width: 100%;
+}
+.Main-contacts__body{
+    margin: 20px 0px;
+}
+.contacts__body-text{
+    font-size: 21px;
+}
+.contacts__body-text-phone svg, .contacts__body-text-email svg{
+    width: 25px;
+}
+.news__title, .dogs__title, .litter__title, .contacts__title{
+    text-align: center;
 }
 }
