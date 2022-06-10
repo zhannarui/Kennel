@@ -1162,4 +1162,11 @@ flex-direction: column;
 .gallery__box-item__img img{
     width: 100%;
 }
+.ourDogs__section-list{
+    flex-direction: column;
+    row-gap: 100px;
+}
+.girls-discription-item-name, .boys-discription-item-name{
+    line-height: 35px;
+}
 }
