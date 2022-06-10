@@ -1169,4 +1169,21 @@ flex-direction: column;
 .girls-discription-item-name, .boys-discription-item-name{
     line-height: 35px;
 }
+.news1__section-box, .news2__section-box, .news3__section-box, .news4__section-box{
+    flex-direction: column;
+    row-gap: 40px;
+}
+.news9-box-img-item,.news1__section-box-img,.news2__section-box-img{
+max-width: 480px;
+}
+.news9-box-img img,.news1__section-box-img img, .news3__section-box-img img, .news4__section-box-img img,.news2__section-box-img img{
+    width: 100%;
+}
+.news9-box-img{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.news9-box-img-inner{
+    row-gap: 20px;
+}
 }
