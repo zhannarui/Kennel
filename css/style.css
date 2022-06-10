@@ -1130,4 +1130,36 @@ display: none;
 .photoLitterD-gallery{
     margin-left: 0;
 }
+.news__section-box1, .news__section-box2{
+flex-direction: column;
+}
+.news__section-box-item-img-box,.news__section-box-item{
+    width: 100%;
+}
+.news__section-box2{
+    row-gap: 100px;
+}
+.news__photo-fixPadding,.news__photo-fixPadding2,.news__photo-fixPadding3{
+    padding-bottom: 0;
+}
+.mainGallery__box{
+    flex-direction: column;
+    font-size: 36px;
+    row-gap: 100px;
+}
+.exhibition__img svg, .sport__img svg, .walks__img svg, .meetings__img svg{
+    width: 70px;
+}
+.mainGallery__box-exhibition, .mainGallery__box-sport, .mainGallery__box-walks, .mainGallery__box-meetings{
+    margin-bottom: 0px;
+}
+.gallery__box{
+    margin: 0;
+}
+.gallery__box2{
+    margin: 40px 0px;
+}
+.gallery__box-item__img img{
+    width: 100%;
+}
 }
