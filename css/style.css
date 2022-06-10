@@ -148,6 +148,7 @@ footer{
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    text-align: center;
 }
 .contacts__body-phone{
     font-size: 21px;
@@ -483,6 +484,7 @@ background-position: top;
     flex-direction: column;
     align-items: center;
     row-gap: 15px;
+    text-align: center;
 }
 .litters__section-box{
     margin-top: 50px;
@@ -490,7 +492,7 @@ background-position: top;
     column-gap: 70px;
     flex-wrap: wrap;
     row-gap: 50px;
-    margin-left: 30px;
+    justify-content: center;
 }
 .litter-name span{
     font-weight: bold;
@@ -586,7 +588,7 @@ font-size: 30px;
     font-size: 30px;
 }
 .photoLitter-paw-icon svg{
-    width: 30px;
+    width: 35px;
 }
 .photoLitter-paw{
     margin-left: 50px;
@@ -981,13 +983,15 @@ font-size: 30px;
     padding-top: 0px; */
     display: none;
 }
-.MainHeader__logo{
+.MainHeader__logo,.header__logo{
     width: 50%;
    padding: 0px;
 }
-.MainHeader__container{
-align-items: center;
-padding: 20px 10px;
+.MainHeader__container,.header__container{
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: right;
+    column-gap: 45px;
 }
 .aboutUs-content{
     flex-direction: column;
@@ -1064,12 +1068,66 @@ footer{
     font-size: 16px;
     color: rgb(240, 232, 216);
 }
-.MainHeader__container{
-    justify-content: right;
-    column-gap: 45px;
-}
-.MainHeader__logo-img{
+
+.MainHeader__logo-img,.header__logo-img{
     width: 65%;
     padding: 0;
+}
+.standard__title, .ourDogs__title, .litters__title, .memoOwner__title{
+    font-size: 34px;
+    width: 85%;
+    margin: 0 auto;
+}
+.pappies__box{
+    flex-direction: column;
+    row-gap: 50px;
+}
+.litter-birthsday{
+line-height: 30px;
+}
+.litter__section-img{
+display: none;
+}
+.litter__section-textBox{
+    line-height: 35px;
+}
+.litter__section-links{
+    margin-top: 40px;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.litter__section-textBox-paragraph-item span, .litter__section-textBox-paragraph-itemName{
+    font-size: 25px;
+}
+.photoLitter-box{
+    flex-direction: column;
+}
+.photoLitter-box__text{
+    width: 100%;
+}
+.photoLitter-gallery{
+    justify-content: center;
+    width: 100%;
+}
+.photoLitter-subTitle, .photoLitter-title{
+    font-size: 35px;
+}
+.photoLitter-text span{
+    font-size: 25px;
+}
+.galleryA__box2{
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.gallery__innerBox{
+    row-gap: 30px;
+}
+.galleryA-title, .gallery-title, .dogs__gallery-title{
+    font-size: 34px;
+    text-align: center;
+}
+.photoLitterD-gallery{
+    margin-left: 0;
 }
 }
