@@ -1210,4 +1210,11 @@ max-width: 480px;
 .news__title, .dogs__title, .litter__title, .contacts__title{
     text-align: center;
 }
+.dog1{
+    background-image: none;
+}
+.dog1__pedigree, .dog2__pedigree, .dog3__pedigree, .dog4__pedigree, .dog5__pedigree, .dog6__pedigree{
+    flex-direction: column;
+    row-gap: 30px;
+}
 }
