@@ -873,7 +873,7 @@ font-size: 30px;
 .aboutUs-text{
     display: block;
 }
-.aboutUs-text-mobile,.MobileHeader__logo-text,.contacts__body-img-mobile{
+.aboutUs-text-mobile,.MobileHeader__logo-text,.contacts__body-img-mobile,.dog__section-imgMobile{
     display: none;
 }
 
@@ -1209,12 +1209,26 @@ max-width: 480px;
 }
 .news__title, .dogs__title, .litter__title, .contacts__title{
     text-align: center;
+    padding: 30px 25px;
 }
-.dog1{
+.dog1,.dog2,.dog3,.dog4,.dog5,.dog6,.dog7,.dog8,.dog9{
     background-image: none;
 }
 .dog1__pedigree, .dog2__pedigree, .dog3__pedigree, .dog4__pedigree, .dog5__pedigree, .dog6__pedigree{
     flex-direction: column;
     row-gap: 30px;
+}
+.dog1__section-title, .dog2__section-title, .dog3__section-title, .dog4__section-title, .dog5__section-title, .dog6__section-title,.dog1__section-box, .dog2__section-box, .dog3__section-box, .dog4__section-box, .dog5__section-box, .dog6__section-box{
+    text-align: center;
+    padding-left: 0;
+    line-height: 35px;
+}
+.dog__section-imgMobile{
+    display: block;
+    max-width: 480px;
+    padding-top: 30px;
+}
+.dog__section-imgMobile img{
+    width: 100%;
 }
 }
