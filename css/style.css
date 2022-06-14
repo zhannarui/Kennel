@@ -1241,4 +1241,19 @@ max-width: 480px;
 .pappies,.gallery{
     height: 20vh;
 }
+.dogs__gallery3{
+    flex-direction: column;
+    row-gap: 40px;
+    margin: 0;
+    align-items: center;
+}
+.standard__discription-title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+.standard__discription-textBox{
+    margin-top: 50px;
+    line-height: 35px;
+}
 }
