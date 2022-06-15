@@ -1218,7 +1218,13 @@ max-width: 480px;
     flex-direction: column;
     row-gap: 30px;
 }
-.dog1__section-title, .dog2__section-title, .dog3__section-title, .dog4__section-title, .dog5__section-title, .dog6__section-title,.dog1__section-box, .dog2__section-box, .dog3__section-box, .dog4__section-box, .dog5__section-box, .dog6__section-box{
+.dog1__section-title, .dog2__section-title, .dog3__section-title, .dog4__section-title, .dog5__section-title, .dog6__section-title{
+    text-align: center;
+    padding-left: 0;
+    line-height: 35px;
+}
+.dog1__section-box, .dog2__section-box, .dog3__section-box, .dog4__section-box, .dog5__section-box, .dog6__section-box{
+    font-size: 18px;
     text-align: center;
     padding-left: 0;
     line-height: 35px;
@@ -1257,8 +1263,15 @@ max-width: 480px;
     line-height: 35px;
     font-size: 18px;
 }
-.standard__head-textBox, .standard__muzzle-textBox, .standard__body-textBox, .standard__limbs-textBox1, .standard__limbs-textBox2, .standard__limbs-textBox3, .standard__limbs-textBox4, .standard__woolCover-textBox, .standard__size-textBox, .standard__note-textBox-item,.standard__tail-textBox-item, .standard__limitations-textBox-item, .standard__disqualifyingVices-textBox-item{
+.standard__head-textBox, .standard__muzzle-textBox, .standard__body-textBox, .standard__limbs-textBox1, .standard__limbs-textBox2, .standard__limbs-textBox3, .standard__limbs-textBox4, .standard__woolCover-textBox, .standard__size-textBox, .standard__note-textBox-item,.standard__tail-textBox-item, .standard__limitations-textBox-item, .standard__disqualifyingVices-textBox-item,.memoOwner__content p{
     font-size: 18px;
     line-height: 35px;
+}
+.uk-accordion-title,.uk-accordion-content{
+    font-size: 18px;
+    padding: 0px 25px 40px 25px;
+}
+.dog1__section-box span, .dog2__section-box span, .dog3__section-box span, .dog4__section-box span, .dog5__section-box span, .dog6__section-box span{
+    font-size: 25px;
 }
 }
