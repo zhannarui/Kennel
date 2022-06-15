@@ -125,7 +125,7 @@ padding-top: 42px;
 line-height: 25px;
 }
 .aboutUs__podcast-img{
-width: 30px;
+width: 35px;
 }
 .aboutUs__podcast-text{
     font-size: 30px;
@@ -873,8 +873,11 @@ font-size: 30px;
 .aboutUs-text{
     display: block;
 }
-.aboutUs-text-mobile,.MobileHeader__logo-text,.contacts__body-img-mobile,.dog__section-imgMobile,.pappies__img-mobile{
+.aboutUs-text-mobile,.MobileHeader__logo-text,.contacts__body-img-mobile,.dog__section-imgMobile,.pappies__img-mobile,.mainGallery__img-mobile{
     display: none;
+}
+.exhibition__text:hover,.sport__text:hover,.walks__text:hover,.meetings__text:hover,.dog1__pedigree-text:hover,.litter__section-link-item span:hover,.photoLitter-paw span:hover,.news__section-box-item-full span:hover,.litter__text:hover,.papForSale__text:hover,.ownerMemo__text:hover{
+    color: #504d45;
 }
 
 
@@ -1272,6 +1275,9 @@ max-width: 480px;
     padding: 0px 25px 40px 25px;
 }
 .dog1__section-box span, .dog2__section-box span, .dog3__section-box span, .dog4__section-box span, .dog5__section-box span, .dog6__section-box span{
+    font-size: 25px;
+}
+.girls-discription-item-name, .boys-discription-item-name{
     font-size: 25px;
 }
 }
