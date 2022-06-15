@@ -1249,11 +1249,16 @@ max-width: 480px;
 }
 .standard__discription-title{
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 35px;
 }
 .standard__discription-textBox{
     margin-top: 50px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.standard__head-textBox, .standard__muzzle-textBox, .standard__body-textBox, .standard__limbs-textBox1, .standard__limbs-textBox2, .standard__limbs-textBox3, .standard__limbs-textBox4, .standard__woolCover-textBox, .standard__size-textBox, .standard__note-textBox-item,.standard__tail-textBox-item, .standard__limitations-textBox-item, .standard__disqualifyingVices-textBox-item{
+    font-size: 18px;
     line-height: 35px;
 }
 }
