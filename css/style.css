@@ -336,7 +336,7 @@ padding-top: 10px;
 .news__section-box1{
     flex-wrap: wrap;
     row-gap: 100px;
-    justify-content: space-between;
+    column-gap: 80px;
 }
 .news__section-box-item-date,.news__section-box-item-text,.news__section-box-item-full-text{
     font-size: 20px;
