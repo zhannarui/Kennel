@@ -975,6 +975,10 @@ font-size: 30px;
     transform: translateX(100%);
     transition: 0.5s;
 }
+.menu-close{
+    transform: translateX(100%);
+    transition: 0.5s;  
+}
 .header__hr{
     display: none;
 }
