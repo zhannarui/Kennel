@@ -1012,6 +1012,7 @@ font-size: 30px;
 .aboutUs__podcast{
     flex-direction: column;
     row-gap: 15px;
+    text-align: center;
 }
 .aboutUs__podcast-img{
     width: 15%;
